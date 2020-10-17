@@ -26,10 +26,10 @@ function generatePassword() {
   var numbersbool = false;
   var specialbool = false;
   var passwordlength = 0
- // passwordlength = prompt("how many characters would you like your password to be? (numbers only please)")
+ 
 
   while ( passwordlength <= 8 || passwordlength >= 128){
-  passwordlength = prompt("how many characters would you like your password to be? (numbers only please)");
+  passwordlength = prompt("how many characters would you like your password to be? (numbers only, please between 8 and 128)");
   }
 
 
